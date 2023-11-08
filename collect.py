@@ -12,7 +12,7 @@ import json
 from datetime import datetime
 kafka_config = {'bootstrap.servers': 'localhost:9092'}
 # Set your API key here
-api_key = "AIzaSyBtNsi5qwqiAywUrYYDDPWlx75wTM3INoc"
+api_key = "Mykey"
 channels=[]
 #push data to kafka
 def send_to_kafka(topic, message):
